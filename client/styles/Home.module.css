@@ -3,8 +3,8 @@
 }
 
 .main {
-  min-height: 100vh;
-  padding: 4rem 0;
+  min-height: 85vh;
+  padding: 0 0;
   flex: 1;
   display: flex;
   flex-direction: column;
@@ -23,12 +23,6 @@
   text-decoration: underline;
 }
 
-.title {
-  margin: 0;
-  line-height: 1.15;
-  font-size: 4rem;
-}
-
 .title,
 .description {
   text-align: center;
@@ -43,16 +37,7 @@
   margin-top: 3rem;
   margin-bottom: 2rem;
   line-height: 1.5;
-  font-size: 1.5rem;
-}
-
-.code {
-  background: #fafafa;
-  border-radius: 5px;
-  padding: 0.75rem;
-  font-size: 1.1rem;
-  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
-    Bitstream Vera Sans Mono, Courier New, monospace;
+  max-width: 1024px;
 }
 
 .grid {
@@ -80,8 +65,8 @@
 .card:focus,
 .card:active {
   background-color: #272c34;
-  color: #0ea5e9;
-  border-color: #0ea5e9;
+  color: #02AEF3;
+  border-color: #02AEF3;
 }
 
 .card h2 {
@@ -111,9 +96,7 @@
 .footer {
   border-color: #222;
 }
-.code {
-  background: #111;
-}
+
 .logo img {
   filter: invert(1);
 }
